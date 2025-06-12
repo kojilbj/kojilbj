@@ -25,7 +25,7 @@ Here are some ideas to get you started:
     <img height="150" src="https://github-readme-stats.vercel.app/api?username=kojilbj&show_icons=true&include_all_commits=true&count_private=true&theme=gotham&hide_border=false" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=kojilbj&layout=compact&card_width=370&langs_count=5&theme=gotham&hide_border=false" />
+    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=kojilbj&layout=compact&card_width=370&langs_count=6&theme=gotham&hide_border=false" />
   </a>
 </p>
 
@@ -33,5 +33,5 @@ Here are some ideas to get you started:
 ## 🏆 GitHub Trophy
 
 <p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=kojilbj&theme=nord&no-frame=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=kojilbj&theme=onedark&no-frame=true&row=1&column=6" />
 </p>
