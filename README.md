@@ -14,10 +14,30 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # Stats
+<!-- Profile Details -->
+<p align="left">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kojilbj&theme=gotham" />
+</p>
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="150px" src="https://github-readme-stats.vercel.app/api?username=kojilbj&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark_dimmed&locale=en&hide_border=false&order=1" />
-</a>
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs?username=kojilbj&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=github_dark_dimmed&hide_border=false&order=2" />
-</a>
+<!-- Stats & Top Languages -->
+<p align="left">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="150" src="https://github-readme-stats.vercel.app/api?username=kojilbj&show_icons=true&include_all_commits=true&count_private=true&theme=gotham&hide_border=false" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=kojilbj&layout=compact&card_width=320&langs_count=5&theme=gotham&hide_border=false" />
+  </a>
+</p>
+
+<!-- Additional Cards -->
+<p align="left">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=kojilbj&theme=gotham" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kojilbj&theme=gotham&utcOffset=9" />
+</p>
+
+<!-- Trophy Section -->
+## 🏆 GitHub Trophy
+
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=kojilbj&theme=nord&no-frame=true&row=1&column=7" />
+</p>
