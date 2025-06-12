@@ -22,10 +22,10 @@ Here are some ideas to get you started:
 <!-- Stats & Top Languages -->
 <p align="left">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="150" src="https://github-readme-stats.vercel.app/api?username=kojilbj&show_icons=true&include_all_commits=true&count_private=true&theme=gotham&hide_border=false" />
+    <img height="150" src="https://github-readme-stats.vercel.app/api?username=kojilbj&show_icons=true&include_all_commits=true&count_private=true&theme=gotham&hide_border=true" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=kojilbj&layout=compact&card_width=370&langs_count=6&theme=gotham&hide_border=false" />
+    <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=kojilbj&layout=compact&card_width=370&langs_count=6&theme=gotham&hide_border=true" />
   </a>
 </p>
 
