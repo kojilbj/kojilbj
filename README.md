@@ -29,9 +29,3 @@ Here are some ideas to get you started:
   </a>
 </p>
 
-<!-- Trophy Section -->
-## 🏆 GitHub Trophy
-
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=kojilbj&theme=onedark&no-frame=true&row=1&column=6" />
-</p>
