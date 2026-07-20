@@ -55,7 +55,7 @@ Here are some ideas to get you started:
     <tr>
       <td align="center" width="50%">
         <b>⚙️ Backend & Architecture</b><br><br>
-        <img src="https://skillicons.dev/icons?i=nodejs,dotnet,prisma&perline=10" />
+        <img src="https://skillicons.dev/icons?i=nodejs,dotnet,prisma,pytorch,sklearn&perline=10" />
       </td>
       <td align="center" width="50%">
         <b>🐳 DevOps & Tools</b><br><br>
