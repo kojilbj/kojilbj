@@ -19,9 +19,6 @@ Here are some ideas to get you started:
 </h1>
 
 <div align="center">
-  <a href="mailto:k.watanabeft@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
   <a href="https://linkedin.com/in/kojwatan" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
@@ -41,24 +38,6 @@ Here are some ideas to get you started:
   <img src="https://skillicons.dev/icons?i=nodejs,react,nextjs,prisma,docker,dotnet,git,github,kubernetes,tailwind,postman" />
 </p>
 <hr>
-
-# Stats
-<!-- Profile Details -->
-<p align="left">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kojilbj&theme=gotham" />
-</p>
-
-<!-- Stats & Top Languages -->
-<p align="left">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="150" src="https://github-stats-extended.vercel.app/api?username=kojilbj&show_icons=true&include_all_commits=true&count_private=true&theme=gotham&hide_border=true" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="150" src="https://github-stats-extended.vercel.app/api/top-langs?username=kojilbj&layout=compact&card_width=370&langs_count=6&theme=gotham&hide_border=true" />
-  </a>
-</p>
-
-<br>
 
 
 
