@@ -28,7 +28,7 @@ Here are some ideas to get you started:
 ## 🧑🏻‍💻 Activity
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kojilbj&theme=github-dark-dimmed&custom_title=Koji's%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-<hr>
+
 
 ## 🛠️ Languages And Tools
 
@@ -38,7 +38,7 @@ Here are some ideas to get you started:
   <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,ts,js,rust,html,css" />
   <img src="https://skillicons.dev/icons?i=nodejs,react,nextjs,prisma,docker,dotnet,git,github,kubernetes,tailwind,postman" />
 </p>
-<hr>
+
 
 
 
