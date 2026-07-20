@@ -29,16 +29,33 @@ Here are some ideas to get you started:
 [![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kojilbj&theme=github-dark-dimmed&custom_title=Koji's%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
-
 ## 🛠️ Languages And Tools
+
 
 <br>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,ts,js,rust,html,css" />
-  <img src="https://skillicons.dev/icons?i=nodejs,react,nextjs,prisma,docker,dotnet,git,github,kubernetes,tailwind,postman" />
-</p>
-
-
-
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>💻 Languages</b><br><br>
+        <img src="https://skillicons.dev/icons?i=c,cpp,cs,python,rust,js,ts&perline=10" />
+      </td>
+      <td align="center" width="50%">
+        <b>🌐 Frontend & UI</b><br><br>
+        <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&perline=10" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="50%">
+        <b>⚙️ Backend & Architecture</b><br><br>
+        <img src="https://skillicons.dev/icons?i=nodejs,dotnet,prisma&perline=10" />
+      </td>
+      <td align="center" width="50%">
+        <b>🐳 DevOps & Tools</b><br><br>
+        <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,postman&perline=10" />
+      </td>
+    </tr>
+  </table>
+</div>
 
