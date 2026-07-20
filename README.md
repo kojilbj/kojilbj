@@ -15,20 +15,20 @@ Here are some ideas to get you started:
 -->
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=700&height=75&color=4493F8&duration=4000&lines=Hi+There!+👋;+I'm+Koji!;Welcome+To+My+Space!" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=700&height=75&color=4493F8&duration=4000&lines=Hi+There!+👋;+I'm+Koji!;Welcome+To+My+Space!" />
 </h1>
 
 <h3 align="center"> Software Engineering student @ 42 Paris</h3>
 <div align="center">
-    <a href="https://42.fr/" target="_blank">
-  <img src="https://img.shields.io/badge/42_Paris-kojwatan-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 Paris" />
-</a>
+  <a href="https://42.fr/" target="_blank">
+    <img src="https://img.shields.io/badge/42_Paris-kojwatan-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 Paris" />
+  </a>
   <a href="https://linkedin.com/in/kojwatan" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
-    <a href="https://discordapp.com/users/540117611837652992" target="_blank">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-</a>
+  <a href="https://discordapp.com/users/540117611837652992" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
 </div>
 
 ## 🧑🏻‍💻 Github Activity
@@ -64,4 +64,3 @@ Here are some ideas to get you started:
     </tr>
   </table>
 </div>
-
