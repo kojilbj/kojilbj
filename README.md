@@ -31,12 +31,7 @@ Here are some ideas to get you started:
   </a>
 </div>
 
-## 🧑🏻‍💻 Github Activity
-[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kojilbj&theme=github-dark-dimmed&custom_title=Koji's%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-
 ## 🛠️ Languages And Tools
-
 
 <br>
 
@@ -64,3 +59,9 @@ Here are some ideas to get you started:
     </tr>
   </table>
 </div>
+
+
+## 🧑🏻‍💻 Github Activity
+[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kojilbj&theme=github-dark-dimmed&custom_title=Koji's%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+
