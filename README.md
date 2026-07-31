@@ -19,11 +19,8 @@
   🟢 <b>Currently looking for a 6-month AI-related Software Engineer internship in Paris</b> — feel free to reach out at <a href="mailto:k.watanabeft@gmail.com">k.watanabeft@gmail.com</a>
 </p>
 
-- 🔭 Currently building real-time motion-tracking systems (IMU + AprilTag computer vision, Unity/C#/C++) as a freelance developer @ Livestreamers Inc.
 - 🌱 Learning to build RAG and agentic LLM systems — moving from computer vision/classical ML into AI Engineer / product-integration work
 - 🌏 Trained at 42 Tokyo, now at 42 Paris — chasing a global, not just domestic, view of how software companies run
-- 💬 Ask me about computer vision pipelines, real-time tracking systems, or 42's peer-learning model
-- ⚡ Fun fact: outside of code I watch a lot of NBA and brew pour-over coffee — more for the process than the result
 
 ## 🚀 Featured Projects
 
