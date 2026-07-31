@@ -37,7 +37,6 @@
       <td width="50%">
         <b>🎩 DSLR</b> — Hogwarts Sorting Hat (Logistic Regression, From Scratch)<br>
         Multi-class logistic regression built from scratch — sigmoid, log-loss, batch gradient descent, One-vs-All — no scikit-learn.<br>
-        <b>125/100</b> on 42 Paris's evaluation.<br>
         <sub>Python · NumPy · Pandas · Matplotlib</sub><br>
         <a href="https://github.com/kojilbj/dslr">Repo →</a>
       </td>
