@@ -27,20 +27,28 @@
 <div align="center">
   <table>
     <tr>
-      <td width="33%">
+      <td width="50%">
         <b>🍃 Leaffliction</b> — Plant Disease Diagnosis AI<br>
         Custom VGG-style CNN trained from scratch, with a custom data augmentation pipeline to fix class imbalance.<br>
         <b>97%+ validation accuracy</b> across all leaf pathology classes.<br>
         <sub>Python · PyTorch · OpenCV</sub><br>
         <a href="https://github.com/jaytakahashii/42_Leaffliction">Repo →</a>
       </td>
-      <td width="33%">
+      <td width="50%">
+        <b>🎩 DSLR</b> — Hogwarts Sorting Hat (Logistic Regression, From Scratch)<br>
+        Multi-class logistic regression built from scratch — sigmoid, log-loss, batch gradient descent, One-vs-All — no scikit-learn.<br>
+        <sub>Python · NumPy · Pandas · Matplotlib</sub><br>
+        <a href="https://github.com/kojilbj/dslr">Repo →</a>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
         <b>🧠 Total Perspective Vortex</b> — EEG Brain-Computer Interface<br>
         Motor imagery classification (real vs. imagined movement) on 109-subject EEG data, with CSP implemented from scratch and a real-time streaming inference simulator.<br>
         <sub>Python · scikit-learn · MNE · SciPy</sub><br>
         <a href="https://github.com/kojilbj/total-perspective-vortex">Repo →</a>
       </td>
-      <td width="33%">
+      <td width="50%">
         <b>⚫ Gomoku</b> — Game Engine & AI<br>
         High-performance game engine with an SFML GUI and a Minimax + Alpha-Beta pruning AI opponent, using heuristic evaluation to detect threats and winning patterns.<br>
         <sub>C++ · SFML</sub><br>
