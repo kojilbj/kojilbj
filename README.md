@@ -90,7 +90,7 @@
       </td>
       <td align="center" width="50%">
         <b>🐳 DevOps & Tools</b><br><br>
-        <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,postman,obsidian&perline=10" />
+        <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,githubactions,postman,obsidian&perline=10" />
       </td>
     </tr>
   </table>
