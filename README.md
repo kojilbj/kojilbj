@@ -62,7 +62,12 @@
         <sub>C++ · SFML</sub><br>
         <a href="https://github.com/jaytakahashii/42_Gomoku">Repo →</a>
       </td>
-      <td width="50%"></td>
+      <td width="50%">
+        <b>☸️ Inception-of-Things</b> — K3s Cluster & GitOps<br>
+        Building K3s/K3d Kubernetes clusters from scratch with Vagrant, ingress routing, and automated GitOps continuous deployment with Argo CD.<br>
+        <sub>Kubernetes · K3s · Vagrant · Argo CD · Docker</sub><br>
+        <a href="https://github.com/Ceidoux/Inception-of-Things">Repo →</a>
+      </td>
     </tr>
   </table>
 </div>
