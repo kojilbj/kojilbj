@@ -28,9 +28,9 @@
   <table>
     <tr>
       <td width="50%">
-        <b>🏀 NBA Live Agent</b> — Live In-Game Reasoning Agent<br>
-        Hand-built LangGraph ReAct loop (Gemini + tool calling) over live <code>nba_api</code> feeds — ask "why isn't LeBron scoring this quarter?" and get a causal answer from play-by-play, not a stat dump.<br>
-        <sub>Python · LangGraph · Gemini · nba_api</sub><br>
+        <b>🏀 NBA Live Agent</b> — Live In-Game Reasoning Web App<br>
+        Full-stack web app (FastAPI + Streamlit) powered by a hand-built LangGraph ReAct loop (Gemini + tool calling) over live <code>nba_api</code> feeds — ask "why isn't LeBron scoring this quarter?" and get a causal answer from play-by-play.<br>
+        <sub>Python · FastAPI · Streamlit · LangGraph · Gemini · nba_api</sub><br>
         <a href="https://github.com/kojilbj/nba-live-agent">Repo →</a>
       </td>
       <td width="50%">
@@ -85,13 +85,13 @@
       </td>
       <td align="center" width="50%">
         <b>🌐 Frontend & UI</b><br><br>
-        <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&perline=10" />
+        <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,streamlit&perline=10" />
       </td>
     </tr>
     <tr>
       <td align="center" width="50%">
         <b>⚙️ Backend & Architecture</b><br><br>
-        <img src="https://skillicons.dev/icons?i=nodejs,dotnet,prisma,pytorch,sklearn&perline=10" />
+        <img src="https://skillicons.dev/icons?i=fastapi,nodejs,dotnet,prisma,pytorch,sklearn&perline=10" />
       </td>
       <td align="center" width="50%">
         <b>🐳 DevOps & Tools</b><br><br>
