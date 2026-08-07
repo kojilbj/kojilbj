@@ -85,7 +85,7 @@
       </td>
       <td align="center" width="50%">
         <b>🌐 Frontend & UI</b><br><br>
-        <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,streamlit&perline=10" />
+        <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&perline=10" />
       </td>
     </tr>
     <tr>
