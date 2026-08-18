@@ -30,13 +30,14 @@
       <td width="50%">
         <b>🏀 NBA Live Agent</b> — Live In-Game Reasoning Web App<br>
         Full-stack web app (FastAPI + Streamlit) powered by a hand-built LangGraph ReAct loop (Gemini + tool calling) over live <code>nba_api</code> feeds — ask "why isn't LeBron scoring this quarter?" and get a causal answer from play-by-play.<br>
+        <blockquote>🏀 Real-time <b>causal reasoning</b> over live play-by-play, not just box scores</blockquote>
         <sub>Python · FastAPI · Streamlit · LangGraph · Gemini · nba_api</sub><br>
         <a href="https://github.com/kojilbj/nba-live-agent">Repo →</a>
       </td>
       <td width="50%">
         <b>🍃 Leaffliction</b> — Plant Disease Diagnosis AI<br>
         Custom VGG-style CNN trained from scratch, with a custom data augmentation pipeline to fix class imbalance.<br>
-        <b>97%+ validation accuracy</b> across all leaf pathology classes.<br>
+        <blockquote>🎯 <b>97%+ validation accuracy</b> across all leaf pathology classes</blockquote>
         <sub>Python · PyTorch · OpenCV</sub><br>
         <a href="https://github.com/jaytakahashii/42_Leaffliction">Repo →</a>
       </td>
@@ -45,12 +46,14 @@
       <td width="50%">
         <b>🎩 DSLR</b> — Hogwarts Sorting Hat (Logistic Regression, From Scratch)<br>
         Multi-class logistic regression built from scratch — sigmoid, log-loss, batch gradient descent, One-vs-All — no scikit-learn.<br>
+        <blockquote>✨ Full multi-class classifier <b>built from scratch</b> — zero scikit-learn</blockquote>
         <sub>Python · NumPy · Pandas · Matplotlib</sub><br>
         <a href="https://github.com/kojilbj/dslr">Repo →</a>
       </td>
       <td width="50%">
         <b>🧠 Total Perspective Vortex</b> — EEG Brain-Computer Interface<br>
         Motor imagery classification (real vs. imagined movement) on 109-subject EEG data, with CSP implemented from scratch and a real-time streaming inference simulator.<br>
+        <blockquote>🧠 <b>Real-time streaming inference</b> simulator on 109-subject EEG data</blockquote>
         <sub>Python · scikit-learn · MNE · SciPy</sub><br>
         <a href="https://github.com/kojilbj/total-perspective-vortex">Repo →</a>
       </td>
@@ -59,12 +62,14 @@
       <td width="50%">
         <b>⚫ Gomoku</b> — Game Engine & AI<br>
         High-performance game engine with an SFML GUI and a Minimax + Alpha-Beta pruning AI opponent, using heuristic evaluation to detect threats and winning patterns.<br>
+        <blockquote>♟️ <b>Minimax + Alpha-Beta</b> AI with heuristic threat detection</blockquote>
         <sub>C++ · SFML</sub><br>
         <a href="https://github.com/jaytakahashii/42_Gomoku">Repo →</a>
       </td>
       <td width="50%">
         <b>☸️ Inception-of-Things</b> — K3s Cluster & GitOps<br>
         Building K3s/K3d Kubernetes clusters from scratch with Vagrant, ingress routing, and automated GitOps continuous deployment with Argo CD.<br>
+        <blockquote>☸️ Fully automated <b>GitOps pipeline</b> with Argo CD</blockquote>
         <sub>Kubernetes · K3s · Vagrant · Argo CD · Docker</sub><br>
         <a href="https://github.com/Ceidoux/Inception-of-Things">Repo →</a>
       </td>
