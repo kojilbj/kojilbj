@@ -102,5 +102,23 @@
 </div>
 
 
-## 🧑🏻‍💻 Github Activity
-[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kojilbj&theme=github-dark-dimmed&custom_title=Koji's%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+## 📊 GitHub Stats & Activity
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=kojilbj&show_icons=true&theme=github_dark_dimmed&hide_border=true&count_private=true" alt="Koji's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kojilbj&layout=compact&theme=github_dark_dimmed&hide_border=true" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kojilbj&theme=github-dark-dimmed&hide_border=true" alt="GitHub streak stats" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=kojilbj&theme=github-dark-dimmed&custom_title=Koji's%20Activity%20Graph&hide_border=true" alt="activity graph" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=kojilbj&color=4493F8&style=flat" alt="Profile views" />
+</div>
