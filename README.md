@@ -24,53 +24,51 @@
 
 ## 🚀 Featured Projects
 
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <b>🏀 NBA Live Agent</b> — Live In-Game Reasoning Web App<br>
-        Full-stack web app (FastAPI + Streamlit) powered by a hand-built LangGraph ReAct loop (Gemini + tool calling) over live <code>nba_api</code> feeds — ask "why isn't LeBron scoring this quarter?" and get a causal answer from play-by-play.<br>
-        <sub>Python · FastAPI · Streamlit · LangGraph · Gemini · nba_api</sub><br>
-        <a href="https://github.com/kojilbj/nba-live-agent">Repo →</a>
-      </td>
-      <td width="50%">
-        <b>🍃 Leaffliction</b> — Plant Disease Diagnosis AI<br>
-        Custom VGG-style CNN trained from scratch, with a custom data augmentation pipeline to fix class imbalance.<br>
-        <b>97%+ validation accuracy</b> across all leaf pathology classes.<br>
-        <sub>Python · PyTorch · OpenCV</sub><br>
-        <a href="https://github.com/jaytakahashii/42_Leaffliction">Repo →</a>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <b>🎩 DSLR</b> — Hogwarts Sorting Hat (Logistic Regression, From Scratch)<br>
-        Multi-class logistic regression built from scratch — sigmoid, log-loss, batch gradient descent, One-vs-All — no scikit-learn.<br>
-        <sub>Python · NumPy · Pandas · Matplotlib</sub><br>
-        <a href="https://github.com/kojilbj/dslr">Repo →</a>
-      </td>
-      <td width="50%">
-        <b>🧠 Total Perspective Vortex</b> — EEG Brain-Computer Interface<br>
-        Motor imagery classification (real vs. imagined movement) on 109-subject EEG data, with CSP implemented from scratch and a real-time streaming inference simulator.<br>
-        <sub>Python · scikit-learn · MNE · SciPy</sub><br>
-        <a href="https://github.com/kojilbj/total-perspective-vortex">Repo →</a>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <b>⚫ Gomoku</b> — Game Engine & AI<br>
-        High-performance game engine with an SFML GUI and a Minimax + Alpha-Beta pruning AI opponent, using heuristic evaluation to detect threats and winning patterns.<br>
-        <sub>C++ · SFML</sub><br>
-        <a href="https://github.com/jaytakahashii/42_Gomoku">Repo →</a>
-      </td>
-      <td width="50%">
-        <b>☸️ Inception-of-Things</b> — K3s Cluster & GitOps<br>
-        Building K3s/K3d Kubernetes clusters from scratch with Vagrant, ingress routing, and automated GitOps continuous deployment with Argo CD.<br>
-        <sub>Kubernetes · K3s · Vagrant · Argo CD · Docker</sub><br>
-        <a href="https://github.com/Ceidoux/Inception-of-Things">Repo →</a>
-      </td>
-    </tr>
-  </table>
-</div>
+### 🏀 NBA Live Agent — Live In-Game Reasoning Web App
+
+Full-stack web app (FastAPI + Streamlit) powered by a hand-built LangGraph ReAct loop (Gemini + tool calling) over live `nba_api` feeds — ask "why isn't LeBron scoring this quarter?" and get a causal answer from play-by-play.
+
+`Python` `FastAPI` `Streamlit` `LangGraph` `Gemini` `nba_api`  ·  **[Repo →](https://github.com/kojilbj/nba-live-agent)**
+
+---
+
+### 🍃 Leaffliction — Plant Disease Diagnosis AI
+
+Custom VGG-style CNN trained from scratch, with a custom data augmentation pipeline to fix class imbalance. **97%+ validation accuracy** across all leaf pathology classes.
+
+`Python` `PyTorch` `OpenCV`  ·  **[Repo →](https://github.com/jaytakahashii/42_Leaffliction)**
+
+---
+
+### 🎩 DSLR — Hogwarts Sorting Hat (Logistic Regression, From Scratch)
+
+Multi-class logistic regression built from scratch — sigmoid, log-loss, batch gradient descent, One-vs-All — no scikit-learn.
+
+`Python` `NumPy` `Pandas` `Matplotlib`  ·  **[Repo →](https://github.com/kojilbj/dslr)**
+
+---
+
+### 🧠 Total Perspective Vortex — EEG Brain-Computer Interface
+
+Motor imagery classification (real vs. imagined movement) on 109-subject EEG data, with CSP implemented from scratch and a real-time streaming inference simulator.
+
+`Python` `scikit-learn` `MNE` `SciPy`  ·  **[Repo →](https://github.com/kojilbj/total-perspective-vortex)**
+
+---
+
+### ⚫ Gomoku — Game Engine & AI
+
+High-performance game engine with an SFML GUI and a Minimax + Alpha-Beta pruning AI opponent, using heuristic evaluation to detect threats and winning patterns.
+
+`C++` `SFML`  ·  **[Repo →](https://github.com/jaytakahashii/42_Gomoku)**
+
+---
+
+### ☸️ Inception-of-Things — K3s Cluster & GitOps
+
+Building K3s/K3d Kubernetes clusters from scratch with Vagrant, ingress routing, and automated GitOps continuous deployment with Argo CD.
+
+`Kubernetes` `K3s` `Vagrant` `Argo CD` `Docker`  ·  **[Repo →](https://github.com/Ceidoux/Inception-of-Things)**
 
 ## 🛠️ Languages And Tools
 
