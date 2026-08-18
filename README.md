@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=1500&height=75&color=4493F8&duration=4000&pause=1500&lines=Hi+There!+👋;+I'm+Koji!;Learning+to+build+AI+agents+that+reason" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=1300&height=75&color=4493F8&duration=4000&pause=1500&lines=Hi+There!+👋;+I'm+Koji!;Learning+to+build+AI+agents+that+reason" />
 </h1>
 
 <h3 align="center"> Software Engineering student @ 42 Paris 🇫🇷 (AI Specialization)</h3>
