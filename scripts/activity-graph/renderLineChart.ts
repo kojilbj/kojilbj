@@ -34,24 +34,53 @@ interface Coord {
     y: number;
 }
 
-// Catmull-Rom-to-Bezier: produces a smooth curve that still passes through every point.
-function smoothCurveSegments(coords: Coord[]): string {
-    if (coords.length < 2) return '';
-    let segments = '';
+interface CurveSegment {
+    cp1: Coord;
+    cp2: Coord;
+    end: Coord;
+}
+
+// Tangent at each point, averaged from its neighbors (Catmull-Rom), except at a
+// local peak/valley where the tangent is flattened to zero so the curve's own
+// vertex lands exactly on the data point instead of drifting to one side of it.
+function tangentAt(coords: Coord[], i: number): Coord {
+    const p = coords[i];
+    const prev = coords[i - 1];
+    const next = coords[i + 1];
+
+    if (!prev) return { x: next.x - p.x, y: next.y - p.y };
+    if (!next) return { x: p.x - prev.x, y: p.y - prev.y };
+
+    const isExtremum = (p.y - prev.y) * (next.y - p.y) <= 0;
+    return {
+        x: (next.x - prev.x) / 2,
+        y: isExtremum ? 0 : (next.y - prev.y) / 2,
+    };
+}
+
+// Cubic Hermite (via per-point tangents) to Bezier: a smooth curve that still
+// passes through every point.
+export function computeCurveSegments(coords: Coord[]): CurveSegment[] {
+    const tangents = coords.map((_, i) => tangentAt(coords, i));
+    const segments: CurveSegment[] = [];
     for (let i = 0; i < coords.length - 1; i++) {
-        const p0 = coords[i - 1] ?? coords[i];
         const p1 = coords[i];
         const p2 = coords[i + 1];
-        const p3 = coords[i + 2] ?? p2;
-
-        const cp1x = p1.x + (p2.x - p0.x) / 6;
-        const cp1y = p1.y + (p2.y - p0.y) / 6;
-        const cp2x = p2.x - (p3.x - p1.x) / 6;
-        const cp2y = p2.y - (p3.y - p1.y) / 6;
-
-        segments += `C${cp1x},${cp1y},${cp2x},${cp2y},${p2.x},${p2.y}`;
+        const m1 = tangents[i];
+        const m2 = tangents[i + 1];
+        segments.push({
+            cp1: { x: p1.x + m1.x / 3, y: p1.y + m1.y / 3 },
+            cp2: { x: p2.x - m2.x / 3, y: p2.y - m2.y / 3 },
+            end: p2,
+        });
     }
     return segments;
+}
+
+function smoothCurveSegments(coords: Coord[]): string {
+    return computeCurveSegments(coords)
+        .map((s) => `C${s.cp1.x},${s.cp1.y},${s.cp2.x},${s.cp2.y},${s.end.x},${s.end.y}`)
+        .join('');
 }
 
 export function renderLineChart(points: LineChartPoint[], options: LineChartOptions): string {

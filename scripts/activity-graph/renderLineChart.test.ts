@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { computeYAxisTicks, renderLineChart } from './renderLineChart';
+import { computeCurveSegments, computeYAxisTicks, renderLineChart } from './renderLineChart';
 
 describe('computeYAxisTicks', () => {
     it('rounds up to a nice step covering the max value', () => {
@@ -14,6 +14,47 @@ describe('computeYAxisTicks', () => {
 
     it('handles an all-zero data set without dividing by zero', () => {
         expect(computeYAxisTicks(0)).toEqual([0, 1, 2, 3, 4]);
+    });
+});
+
+describe('computeCurveSegments', () => {
+    it('keeps the tangent flat at a local peak, so the curve vertex lines up with the data point', () => {
+        // value goes up then down: the middle point is a local peak
+        const coords = [
+            { x: 0, y: 10 },
+            { x: 10, y: 0 },
+            { x: 20, y: 10 },
+        ];
+        const segments = computeCurveSegments(coords);
+
+        // control point arriving at the peak (end of segment 0) is level with the peak
+        expect(segments[0].cp2.y).toBeCloseTo(coords[1].y);
+        // control point leaving the peak (start of segment 1) is level with the peak
+        expect(segments[1].cp1.y).toBeCloseTo(coords[1].y);
+    });
+
+    it('keeps the tangent flat at a local valley too', () => {
+        const coords = [
+            { x: 0, y: 0 },
+            { x: 10, y: 10 },
+            { x: 20, y: 0 },
+        ];
+        const segments = computeCurveSegments(coords);
+
+        expect(segments[0].cp2.y).toBeCloseTo(coords[1].y);
+        expect(segments[1].cp1.y).toBeCloseTo(coords[1].y);
+    });
+
+    it('still curves smoothly (non-flat tangent) through a monotonic run', () => {
+        const coords = [
+            { x: 0, y: 20 },
+            { x: 10, y: 10 },
+            { x: 20, y: 0 },
+        ];
+        const segments = computeCurveSegments(coords);
+
+        expect(segments[0].cp2.y).not.toBeCloseTo(coords[1].y);
+        expect(segments[1].cp1.y).not.toBeCloseTo(coords[1].y);
     });
 });
 
