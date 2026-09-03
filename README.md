@@ -103,4 +103,4 @@
 
 
 ## 🧑🏻‍💻 Github Activity
-[![activity graph](./assets/activity-graph.svg)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![activity graph](./assets/activity-graph.svg)](https://github.com/kojilbj/github-activity-graph-action)
