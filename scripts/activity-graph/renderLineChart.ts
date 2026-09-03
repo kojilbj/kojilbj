@@ -29,6 +29,31 @@ export function computeYAxisTicks(maxValue: number, tickCount = Y_AXIS_TICK_COUN
     return Array.from({ length: tickCount }, (_, i) => i * step);
 }
 
+interface Coord {
+    x: number;
+    y: number;
+}
+
+// Catmull-Rom-to-Bezier: produces a smooth curve that still passes through every point.
+function smoothCurveSegments(coords: Coord[]): string {
+    if (coords.length < 2) return '';
+    let segments = '';
+    for (let i = 0; i < coords.length - 1; i++) {
+        const p0 = coords[i - 1] ?? coords[i];
+        const p1 = coords[i];
+        const p2 = coords[i + 1];
+        const p3 = coords[i + 2] ?? p2;
+
+        const cp1x = p1.x + (p2.x - p0.x) / 6;
+        const cp1y = p1.y + (p2.y - p0.y) / 6;
+        const cp2x = p2.x - (p3.x - p1.x) / 6;
+        const cp2y = p2.y - (p3.y - p1.y) / 6;
+
+        segments += `C${cp1x},${cp1y},${cp2x},${cp2y},${p2.x},${p2.y}`;
+    }
+    return segments;
+}
+
 export function renderLineChart(points: LineChartPoint[], options: LineChartOptions): string {
     const { width, height, showArea, showGrid } = options;
 
@@ -47,12 +72,12 @@ export function renderLineChart(points: LineChartPoint[], options: LineChartOpti
 
     const coords = points.map((p, i) => ({ x: xForIndex(i), y: yForValue(p.value), point: p }));
 
-    const linePath = coords.map((c, i) => `${i === 0 ? 'M' : 'L'}${c.x},${c.y}`).join('');
+    const linePath = `M${coords[0].x},${coords[0].y}${smoothCurveSegments(coords)}`;
 
     const areaPath = showArea
-        ? `<path d="M${coords[0].x},${plotBottom}${coords
-              .map((c) => `L${c.x},${c.y}`)
-              .join('')}L${coords[coords.length - 1].x},${plotBottom}Z" class="ct-area"></path>`
+        ? `<path d="M${coords[0].x},${plotBottom}L${coords[0].x},${coords[0].y}${smoothCurveSegments(
+              coords,
+          )}L${coords[coords.length - 1].x},${plotBottom}Z" class="ct-area"></path>`
         : '';
 
     const pointMarkers = coords

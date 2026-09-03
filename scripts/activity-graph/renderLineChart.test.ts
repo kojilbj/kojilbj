@@ -30,15 +30,21 @@ describe('renderLineChart', () => {
         expect(pointCount).toBe(points.length);
     });
 
-    it('connects points with straight line segments only', () => {
+    it('connects points with a smooth curve through every data point', () => {
         const svg = renderLineChart(points, { width: 1200, height: 420, showArea: false, showGrid: true });
-        const path = svg.match(/class="ct-line"[^>]*|<path[^>]*class="ct-line"/);
         const dMatch = svg.match(/<path d="([^"]+)" class="ct-line"/);
         expect(dMatch).not.toBeNull();
         const d = dMatch![1];
         expect(d.startsWith('M')).toBe(true);
-        expect((d.match(/L/g) ?? []).length).toBe(points.length - 1);
-        expect(d).not.toMatch(/[CQ]/); // no curves, straight lines only
+        expect((d.match(/C/g) ?? []).length).toBe(points.length - 1);
+        expect(d).not.toContain('L'); // fully smooth, no straight segments
+    });
+
+    it('curves the area fill outline too, not just the line', () => {
+        const svg = renderLineChart(points, { width: 1200, height: 420, showArea: true, showGrid: true });
+        const dMatch = svg.match(/<path d="([^"]+)" class="ct-area"/);
+        expect(dMatch).not.toBeNull();
+        expect(dMatch![1]).toContain('C');
     });
 
     it('includes each label in the rendered output', () => {
