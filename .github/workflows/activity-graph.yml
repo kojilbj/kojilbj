@@ -1,0 +1,43 @@
+name: Generate Activity Graph
+
+on:
+  schedule:
+    - cron: "0 18 * * *" # daily at 03:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate activity graph SVG
+        env:
+          TOKEN: ${{ secrets.GRAPH_PAT }}
+          GH_USERNAME: kojilbj
+        run: npm run generate:activity-graph
+
+      - name: Commit updated graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- assets/activity-graph.svg; then
+            git add assets/activity-graph.svg
+            git commit -m "chore: update activity graph"
+            git push
+          else
+            echo "No changes to commit"
+          fi

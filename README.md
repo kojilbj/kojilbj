@@ -103,4 +103,6 @@
 
 
 ## 🧑🏻‍💻 Github Activity
-[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kojilbj&theme=github-dark-dimmed&custom_title=Koji's%20Activity%20Graph&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![activity graph](./assets/activity-graph.svg)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<sub>Graph regenerated daily via <a href="./.github/workflows/activity-graph.yml">GitHub Actions</a> using <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">github-readme-activity-graph</a>'s rendering logic, committed as a static SVG instead of depending on the (currently unavailable) hosted API.</sub>
