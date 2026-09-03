@@ -15,29 +15,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Generate and commit activity graph
+        uses: kojilbj/github-activity-graph-action@main
         with:
-          node-version: 20
-          cache: npm
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Generate activity graph SVG
-        env:
-          TOKEN: ${{ secrets.GRAPH_PAT }}
-          GH_USERNAME: kojilbj
-        run: npm run generate:activity-graph
-
-      - name: Commit updated graph
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- assets/activity-graph.svg; then
-            git add assets/activity-graph.svg
-            git commit -m "chore: update activity graph"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+          username: kojilbj
+          token: ${{ secrets.GRAPH_PAT }}
+          theme: github-dark-dimmed
+          custom_title: "Koji's Activity Graph"
+          hide_border: true
