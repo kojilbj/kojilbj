@@ -29,8 +29,8 @@
     <tr>
       <td width="50%">
         <b>🏀 NBA Live Agent</b> — Live In-Game Reasoning Web App<br>
-        Full-stack web app (FastAPI + Streamlit) powered by a hand-built LangGraph ReAct loop (Gemini + tool calling) over live <code>nba_api</code> feeds — ask "why isn't LeBron scoring this quarter?" and get a causal answer from play-by-play.<br>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" /> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/nba__api-C9082A?style=flat-square" /><br>
+        Full-stack web app (FastAPI + Streamlit) powered by a hand-built LangGraph ReAct loop (Gemini + tool calling) over live <code>nba_api</code> feeds — ask "why isn't LeBron scoring this quarter?" and get a causal answer from play-by-play. Also ships as an MCP server so a client like Claude Code can call the NBA data tools directly.<br>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" /> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" /> <img src="https://img.shields.io/badge/nba__api-C9082A?style=flat-square" /> <img src="https://img.shields.io/badge/MCP_server-000000?style=flat-square" /><br>
         <a href="https://github.com/kojilbj/nba-live-agent">Repo →</a>
       </td>
       <td width="50%">
